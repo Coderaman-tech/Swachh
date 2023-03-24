@@ -5,6 +5,12 @@ body{
   background-attachment:fixed;
   height:100%;
 }
+#navbar-container{
+    height: 48px;
+    width: 100%;
+    justify-content: space-between;
+
+}
 #navbar {
   list-style-type: none;
   margin: 0;
@@ -18,6 +24,9 @@ body{
   float: right;
 }
 
+#title{
+  text-align: left;
+}
 #navbar li a {
   display: block;
   color:white;
@@ -26,7 +35,4 @@ body{
   text-decoration: none;
 }
 
-#navbar li a:hover:not(.active) {
-  background-color: #ddd;
-}
 
