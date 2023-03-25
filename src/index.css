@@ -5,34 +5,32 @@ body{
   background-attachment:fixed;
   height:100%;
 }
-#navbar-container{
-    height: 48px;
-    width: 100%;
-    justify-content: space-between;
 
-}
-#navbar {
+
+
+ ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /* border: 1px solid #e7e7e7; */
-  background-color: #086C8B ;
+  background-color: #086C8B;
 }
 
-#navbar li {
-  float: right;
+#navbar li{
+  float: left;
 }
 
-#title{
-  text-align: left;
-}
-#navbar li a {
+li a {
   display: block;
-  color:white;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
+
+#navbar img{
+  border-collapse: collapse;
+  width: 45px;
+}
 
